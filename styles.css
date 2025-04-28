@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .header {
+    text-align: center;
+ }
+ .avatar {
+    width: 300px;
+    height: 350px;
+ }
+ .header__title {
+    font-size: 25px;
+ }
+ .header__subtitle {
+    color: gray;
+ }
+ main {
+    border: 1px solid black;
+    text-align: center;
+ }
+ .skills ul {
+    list-style: none;
+ }
+
+.education__table {
+   border: 1px solid black;
+   border-collapse: collapse;
+   width: 100%;
+}
+.education__table th,
+.education__table td
+{
+   border: 1px solid black;
+}
+.quote {
+   font-size: 35px;
+}
+footer {
+   height: 100px;
+   text-align: center;
+   background-color: gray;
+}
+footer a {
+   color: black;
+}

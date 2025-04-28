@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+ </head>
+ <body>
+    <header class="header">
+        <img src="assets/avatar.jpg" alt="avatar" class="avatar">
+        <h1 class="header__title">Anastasia Vetlugina</h1>
+        <h2 class="header__subtitle">Frontend developer</h2>
+    </header>
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list: </summary>
+                <ul>
+                    <li>1. JavaScript</li>
+                    <li>2. HTML</li>
+                    <li>3. CSS</li>
+                    <li>3. React</li>
+                    <li>3. Typescript</li>
+                </ul>
+            </details>
+        </section>
+        <article class="article">
+            <h3>Short article about me: </h3>
+            <p class="article__content">
+                I am a frontend developer with a passion for creating beautiful and functional web applications. I have experience in HTML, CSS, JavaScript, and React. I love learning new technologies and improving my skills. In my free time, I enjoy skiing, video editing, and listening to audiobooks.
+            </p>
+        </article>
+      <section class="education">
+          <h3>Education</h3>
+          <table class="education__table">
+              <thead>
+                  <tr>
+                      <th>School / University</th>
+                      <th>Profession</th>
+                      <th>Year</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Hexlet</td>
+                      <td>Frontend Developer</td>
+                      <td>2025</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+      <section class="quote">
+          <blockquote>
+             "The only way to do great work is to love what you do." - Steve Jobs
+          </blockquote>
+      </section>
+      <section class="interaction">
+          <form action="https://ya.ru" method="get" target="_blank">
+              <fieldset>
+                  <legend>Ask me anything</legend>
+                  <label for="firstNameID">First Name: </label>
+                  <input type="text" id="firstNameID" name="fistName">
+                  <br><br>
+                  <label for="lastNameID">Last Name: </label>
+                  <input type="text" id="lastNameID" name="lastName">
+                  <br><br>
+                  <label for="emailID">Email: </label>
+                  <input type="email" id="emailID" name="email">
+                  <br><br>
+                  <label for="descID">Type something: </label>
+                  <br>
+                  <textarea id="descID" cols="30" rows="10" name="description" placeholder="i am waiting for..."></textarea>
+                  <br><br>
+                  <input type="submit" value="Submit form">
+              </fieldset>
+          </form>
+      </section>
+  </main>
+  <br>
+  <footer>
+    <address class="address">
+     <a href="mailto:anas.vet98@gmail.ru">anas.vet98@gmail.ru</a>
+    </address>
+  </footer>
+</body>
+</html>
